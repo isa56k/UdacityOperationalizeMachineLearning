@@ -17,3 +17,4 @@ kubectl get pods
 # Step 4:
 # Forward the container port to a host
 kubectl expose deployment/uoml --type="NodePort" --port 80
+export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}') && kubectl port-forward $POD_NAME 8000:80
