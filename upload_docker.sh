@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=isa56k/uoml-proj
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login isa56k
 
 # Step 3:
 # Push image to a docker repository
+docker push isa56k/uoml-proj
+

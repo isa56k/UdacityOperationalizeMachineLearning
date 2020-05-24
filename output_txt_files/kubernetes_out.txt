@@ -1,1 +1,14 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) ➜  UdacityOperationalizeMachineLearning git:(master) ✗ ./run_kubernetes.sh 
+deployment.apps/uoml created
+NAME                    READY   STATUS              RESTARTS   AGE
+uoml-74b4c4f6b8-mbfgz   0/1     ContainerCreating   0          0s
+service/uoml exposed
+(.devops) ➜  UdacityOperationalizeMachineLearning git:(master) ✗ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+(.devops) ➜  UdacityOperationalizeMachineLearning git:(master) ✗ 
