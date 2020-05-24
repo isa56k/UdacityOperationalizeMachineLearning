@@ -1,6 +1,6 @@
 Current Build Status is: [![isa56k](https://circleci.com/gh/isa56k/UdacityOperationalizeMachineLearning.svg?style=svg)](https://app.circleci.com/pipelines/github/isa56k/UdacityOperationalizeMachineLearning)
 
-## Project Overview
+# Project Overview
 
 This project deploys a ML API that can be used for the Udacity DevOps Operationalize Machine Learning API project.
 
@@ -13,7 +13,7 @@ This project deploys a ML API that can be used for the Udacity DevOps Operationa
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
 ---
-### How To Use
+# How To Get Started
 ## Setup the Environment
 
 * Create a virtualenv and activate it
